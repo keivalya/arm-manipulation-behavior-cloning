@@ -1,0 +1,11 @@
+gymnasium==0.29.1
+gymnasium-robotics==1.2.4
+pybullet==3.2.6
+matplotlib==3.8.2
+tensorboard==2.15.1
+termcolor==2.4.0
+h5py==3.10.0
+pygame
+torch
+torchvision
+torchaudio
