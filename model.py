@@ -11,7 +11,7 @@ epsilon = 1e-6
 def weights_init_(m):
     if isinstance(m, nn.Linear):
         torch.nn.init.xavier_uniform_(m.weight, gain=1)
-        torch.nn.init.constant(m.bias, 0)
+        torch.nn.init.constant_(m.bias, 0)
 
 class Actor(nn.Module):
     def __init__(self, n_inputs, n_actions, hidden_dim, action_space=None, checkpoint_dir='checkpoints',name='policy_network'):
@@ -37,7 +37,7 @@ class Actor(nn.Module):
                 (action_space.high - action_space.low) / 2
             )
             self.action_bias = torch.FloatTensor(
-                (action_space.high - action_space.low) / 2
+                (action_space.high + action_space.low) / 2
             )
 
     def forward(self, state):
