@@ -10,7 +10,7 @@ if __name__ == "__main__":
     env_name = "FrankaKitchen-v1"
     max_episode_steps = 500
     replay_buffer_size = 1_000_000
-    task = 'microwave'
+    task = 'top burner'
     task_no_spaces = task.replace(" ", "_")
     gamma = 0.99
     tau = 0.005
