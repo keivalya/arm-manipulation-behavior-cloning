@@ -63,9 +63,7 @@ The **core training happens in three stages** with decreasing reliance on expert
 - **Target Q-value computation**:
   - Uses the **Target Critic** to estimate future rewards for `next_state`.
   - Incorporates the current reward and a discount factor (`gamma`) to compute the target:
-    ```math
-    Q_{\text{target}} = r + \gamma \cdot (1 - \text{done}) \cdot \min(Q_1', Q_2') - \alpha \cdot \text{log\_prob}
-    ```
+    $`Q_{\text{target}} = r + \gamma \cdot (1 - \text{done}) \cdot \min(Q_1', Q_2') - \alpha \cdot \text{log\_prob}`$
   - The entropy term ($`\alpha \cdot \text{log\_prob}`$) encourages exploration by penalizing deterministic policies.
 - **Critic Loss**:
   - Compares the predicted Q-values ($`Q_1, Q_2`$) to the computed target Q-value using Mean Squared Error.
