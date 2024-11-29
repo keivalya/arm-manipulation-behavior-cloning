@@ -1,4 +1,6 @@
 # Robotic Arm Manipulation with Human Experience and Hierarchical Reinforcement Learning
+by [KeivalyaPandya](www.keivalya.com)
+---
 
 ### **Soft Actor-Critic: The Big Picture**
 
