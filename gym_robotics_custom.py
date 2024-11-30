@@ -4,8 +4,7 @@ from gymnasium import ObservationWrapper
 
 
 class RoboGymObservationWrapper(ObservationWrapper):
-
-    def __init__(self, env: gym.Env, goal='microwave'):
+    def __init__(self, env: gym.Env, goal):
         super(RoboGymObservationWrapper, self).__init__(env)
         env_model = env.env.env.env.model
         env_model.opt.gravity[:] = [0, 0, -1]

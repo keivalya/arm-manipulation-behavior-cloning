@@ -88,7 +88,6 @@ class Agent(object):
             target_param.data.copy_(target_param.data * (1.0 - self.tau) + param.data * self.tau)
     
     def train(self, env, memory, episodes=1000, batch_size=64, updates_per_step=1, summary_writer_name="", max_episode_steps=100):
-        # tensorboard
         summary_writer_name = f'runs/{datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}_'+summary_writer_name
         writer = SummaryWriter(summary_writer_name)
 
@@ -113,15 +112,11 @@ class Agent(object):
                         updates += 1
 
                 next_state, reward, done, _, _ = env.step(action)
-                
                 episode_steps += 1
                 total_numsteps += 1
                 episode_reward += reward
-
                 mask = 1 if episode_steps == max_episode_steps else float(not done)
-
                 memory.store_transition(state, action, reward, next_state, mask)
-
                 state = next_state
 
             writer.add_scalar('reward/train', episode_reward, episode)
@@ -166,10 +161,8 @@ class Agent(object):
         self.actor.save_checkpoint()
         self.critic.save_checkpoint()
         self.critic_target.save_checkpoint()
-
     
     def load_checkpoint(self, evaluate=False):
-
         try:
             print("Loading models...")
             self.actor.load_checkpoint()

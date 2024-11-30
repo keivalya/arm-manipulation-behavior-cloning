@@ -35,8 +35,6 @@ if __name__ == "__main__":
     memory.load_from_csv(filename=f'checkpoints/human_memory_{task_no_spaces}.npz')
     time.sleep(2)
 
-    # checkpoints/human_memory_microwave.npz
-
     # Phase 1 Training
     memory.expert_data_ratio = 0.5
     agent.train(env=env, memory=memory, episodes=150, batch_size=batch_size, updates_per_step=updates_per_step, summary_writer_name=f"live_train_phase_1_{task_no_spaces}", max_episode_steps=max_episode_steps)
