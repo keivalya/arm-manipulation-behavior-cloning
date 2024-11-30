@@ -1,5 +1,6 @@
 # Robotic Arm Manipulation with Human Experience and Hierarchical Reinforcement Learning
 
+**Franka Robotic Arm Manipulation using Demonstrations by Humans**
 by [Keivalya Pandya](www.keivalya.com)
 
 ---
@@ -149,11 +150,10 @@ The agent is trained in **three phases**:
      - Update Actor using learned Q-values and entropy regularization.
 6. **Log metrics and save model checkpoints.**
 
+---
+
 ### Environment setup:
 - MacOS Sequoia 15.1.1
 - Python 3.11.9
 - required installation is mentioned in `requirements.txt`
-
-What problem are you solving?
-Franka Robotic Arm Manipulation using Demonstrations by Humans
 
