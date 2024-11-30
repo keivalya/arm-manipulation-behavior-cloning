@@ -1,7 +1,7 @@
 # Robotic Arm Manipulation with Human Experience and Hierarchical Reinforcement Learning
 
-**Franka Robotic Arm Manipulation using Demonstrations by Humans**
-by [Keivalya Pandya](www.keivalya.com)
+**Franka Arm Manipulation using Humans Demos in Kitchen Environment**
+by [me](www.keivalya.com)
 
 ---
 
