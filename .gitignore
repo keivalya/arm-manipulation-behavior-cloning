@@ -5,3 +5,4 @@ runs/
 save_videos_pretrained/
 ffmpeg
 test.py
+checkpoints_pretrained/
