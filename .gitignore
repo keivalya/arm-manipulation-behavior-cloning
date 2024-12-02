@@ -6,3 +6,4 @@ save_videos_pretrained/
 ffmpeg
 test.py
 checkpoints_pretrained/
+checkpoints_threephase/
