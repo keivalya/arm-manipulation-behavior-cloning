@@ -1,7 +1,12 @@
-# Robotic Arm Manipulation with Human Experience and Hierarchical Reinforcement Learning
+# Robotic Arm Manipulation with Behavior Cloning
 
 **Franka Arm Manipulation using Humans Demos in Kitchen Environment**
 by [me](www.keivalya.com)
+---
+
+This project enhances robotic arm manipulation by integrating human demonstrations using modified soft-actor-critic method, enabling robots to perform complex tasks like opening cabinets more effectively.
+
+![hinge_cabinet_1](assets/hinge_cabin_1.gif)
 
 ---
 
