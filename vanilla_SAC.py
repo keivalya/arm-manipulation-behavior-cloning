@@ -14,7 +14,7 @@ if __name__ == "__main__":
     task_no_spaces = task.replace(" ", "_")
     gamma = 0.99
     tau = 0.005
-    alpha = 0.0
+    alpha = 0.1
     target_update_interval = 1
     hidden_size = 512
     learning_rate = 0.0001
