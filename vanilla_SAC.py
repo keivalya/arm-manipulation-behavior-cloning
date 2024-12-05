@@ -40,5 +40,5 @@ if __name__ == "__main__":
     # agent.train(env=env, memory=memory, episodes=1400, batch_size=batch_size, updates_per_step=updates_per_step, summary_writer_name=f"vanillaSAC_train_phase_1_{task_no_spaces}", max_episode_steps=max_episode_steps)
 
     # With all the data
-    memory.expert_data_ratio = 1.0
+    memory.expert_data_ratio = 0.5
     agent.train(env=env, memory=memory, episodes=1400, batch_size=batch_size, updates_per_step=updates_per_step, summary_writer_name=f"vanillaSAC_dataLoaded_train_phase_1_{task_no_spaces}", max_episode_steps=max_episode_steps)
