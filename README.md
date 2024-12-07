@@ -9,8 +9,8 @@ This project enhances robotic arm manipulation by integrating human demonstratio
 ![hinge_cabinet_2](assets/hinge_cabin_2.gif) -->
 
 <p float="left">
-<img src="assets/hinge_cabin_1.gif" width="128"/>
-<img src="assets/hinge_cabin_2.gif" width="128"/>
+<img src="assets/hinge_cabin_1.gif" width="200"/>
+<img src="assets/hinge_cabin_2.gif" width="200"/>
 </p>
 ---
 
