@@ -26,6 +26,12 @@ This project enhances robotic arm manipulation by integrating human demonstratio
 <img src="assets/slide_cabin_3.gif" width="200"/>
 </p>
 
+<p float="left">
+<img src="assets/random_1.gif" width="200"/>
+<img src="assets/top_burner_2.gif" width="200"/>
+<img src="assets/top_burner_3.gif" width="200"/>
+</p>
+
 ### **Soft Actor-Critic: The Big Picture**
 
 SAC is a reinforcement learning algorithm that trains an agent to act optimally in continuous action spaces, such as controlling a robot arm or navigating a drone. In the code:
