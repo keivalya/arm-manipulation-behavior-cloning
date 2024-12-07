@@ -6,6 +6,7 @@ by [me](https://www.keivalya.com/)
 This project enhances robotic arm manipulation by integrating human demonstrations using modified soft-actor-critic method, enabling robots to perform complex tasks like opening cabinets more effectively.
 
 ![hinge_cabinet_1](assets/hinge_cabin_1.gif)
+![hinge_cabinet_2](assets/hinge_cabin_2.gif)
 
 ---
 
