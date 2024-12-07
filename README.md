@@ -8,7 +8,7 @@ This project enhances robotic arm manipulation by integrating human demonstratio
 <!-- ![hinge_cabinet_1](assets/hinge_cabin_1.gif)
 ![hinge_cabinet_2](assets/hinge_cabin_2.gif) -->
 
-<p float="center">
+<p align="center">
 
 <p float="left">
 <img src="assets/hinge_cabin_2.gif" width="200"/>
