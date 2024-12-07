@@ -2,9 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 parent = 'data/'
-task = 'vanillaSAC_microwave/'
+task = 'vanillaSAC_microwave_data/'
 graph = parent + task + 'reward/'
-data_file_1 = graph + 'runs_2024-12-04_13-42-08_vanillaSAC_dataLoaded_train_phase_1_microwave.csv'
+data_file_1 = graph + 'runs_2024-12-04_16-39-00_vanillaSAC_dataLoaded_train_phase_1_microwave.csv'
 # data_file_2 = graph + 'runs_2024-11-30_11-59-00_live_train_phase_2_hinge_cabinet.csv'
 # data_file_3 = graph + 'runs_2024-11-30_12-49-14_live_train_phase_3_hinge_cabinet.csv'
 
@@ -28,8 +28,8 @@ plt.plot(df_1['Step'], df_1['Smoothed_Value'], label='phase 1')
 # Plot details
 plt.xlabel('Step')
 plt.ylabel('Value')
-plt.suptitle('Microwave (Vanilla SAC)')
-plt.title('loss/reward')
+plt.suptitle('Microwave (Vanilla SAC with pre-populated replay buffer)')
+plt.title('reward')
 plt.legend()
 plt.savefig("graphs/"+graph.replace("/","_"))
 plt.show()
