@@ -12,7 +12,6 @@ This project enhances robotic arm manipulation by integrating human demonstratio
 <img src="assets/hinge_cabin_1.gif" width="200"/>
 <img src="assets/hinge_cabin_2.gif" width="200"/>
 </p>
----
 
 ### **Soft Actor-Critic: The Big Picture**
 
