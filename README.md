@@ -9,27 +9,27 @@ This project enhances robotic arm manipulation by integrating human demonstratio
 ![hinge_cabinet_2](assets/hinge_cabin_2.gif) -->
 
 <p float="left">
-<img src="assets/hinge_cabin_2.gif" width="20vw"/>
-<img src="assets/hinge_cabin_1.gif" width="20vw"/>
-<img src="assets/hinge_cabin_1.gif" width="20vw"/>
+<img src="assets/hinge_cabin_2.gif" width="200"/>
+<img src="assets/hinge_cabin_1.gif" width="200"/>
+<img src="assets/hinge_cabin_1.gif" width="200"/>
 </p>
 
 <p float="left">
-<img src="assets/random_1.gif" width="20vw"/>
-<img src="assets/microwave_2.gif" width="20vw"/>
-<img src="assets/microwave_3.gif" width="20vw"/>
+<img src="assets/random_1.gif" width="200"/>
+<img src="assets/microwave_2.gif" width="200"/>
+<img src="assets/microwave_3.gif" width="200"/>
 </p>
 
 <p float="left">
-<img src="assets/slide_cabin_2.gif" width="20vw"/>
-<img src="assets/slide_cabin_1.gif" width="20vw"/>
-<img src="assets/slide_cabin_3.gif" width="20vw"/>
+<img src="assets/slide_cabin_2.gif" width="200"/>
+<img src="assets/slide_cabin_1.gif" width="200"/>
+<img src="assets/slide_cabin_3.gif" width="200"/>
 </p>
 
 <p float="left">
-<img src="assets/random_1.gif" width="20vw"/>
-<img src="assets/top_burner_2.gif" width="20vw"/>
-<img src="assets/top_burner_3.gif" width="20vw"/>
+<img src="assets/random_1.gif" width="200"/>
+<img src="assets/top_burner_2.gif" width="200"/>
+<img src="assets/top_burner_3.gif" width="200"/>
 </p>
 
 ### **Soft Actor-Critic: The Big Picture**
