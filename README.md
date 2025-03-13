@@ -3,6 +3,8 @@
 **Franka Arm Manipulation using Humans Demos in Kitchen Environment**
 by [me](https://www.keivalya.com/)
 
+**[Final Deliverables](Robot_Arm_Manipulation_using_Online_BC_with_SAC.pdf)**
+
 This project enhances robotic arm manipulation by integrating human demonstrations using modified soft-actor-critic method, enabling robots to perform complex tasks like opening cabinets more effectively.
 
 <!-- ![hinge_cabinet_1](assets/hinge_cabin_1.gif)
