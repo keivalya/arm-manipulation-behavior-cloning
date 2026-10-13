@@ -186,3 +186,9 @@ The agent is trained in **three phases**:
 - Python 3.11.9
 - required installation is mentioned in `requirements.txt`
 
+### Checkpoints and videos:
+Trained checkpoints (`checkpoints/`, `checkpoints_pretrained/`, `checkpoints_threephase/`) and rollout videos (`assets/Others/save_videos_pretrained/`) are hosted on Hugging Face: [keivalya/robot-arm-manipulation-HRL](https://huggingface.co/keivalya/robot-arm-manipulation-HRL). Download them into the repo root to keep the same paths:
+```bash
+hf download keivalya/robot-arm-manipulation-HRL --local-dir . --exclude ".gitattributes"
+```
+
